@@ -343,13 +343,6 @@ function App() {
                             <p key={i} className="mb-4">{verse}</p>
                          ))}
                       </div>
-                      
-                      {/* FINISH BUTTON */}
-                      <div className="mt-8 pt-6 border-t border-gray-100 flex justify-center">
-                         <button onClick={() => handleFinish(viewingChapterId)} className="bg-[#10B981] hover:bg-[#059669] text-white px-12 py-3.5 rounded-2xl font-bold shadow-lg shadow-green-100 flex items-center gap-3 transition-transform hover:scale-105">
-                            <CheckCircle size={22} /> <span className="text-lg">סיימתי לקרוא</span>
-                         </button>
-                      </div>
                    </div>
                 ) : (
                    // ERROR: PINK BOX - EXACT MATCH TO IMAGE 3
